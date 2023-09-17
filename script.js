@@ -53,9 +53,10 @@ console.groupCollapsed('AMŽIUS')
     } else if (personAge <= 5) {
         console.log('į mokyklą neina')
     } else if (personAge = 6) {
-        
         console.log('Į mokyklą tikriausiai neina, tačiau gali būti ir pirmokas.')  
-    } else if (personAge = 7 && personAge <=10) {
+    } else if (personAge >=7 ) {
+        console.log('eina į pradinę klasę')
+    } else if (personAge<=10) {
         console.log('eina į pradinę klasę')
     } else if (personAge <= 14) {
         console.log('eina į pagrindinę')
