@@ -57,56 +57,54 @@ console.groupCollapsed('AMŽIUS')
     //8. Jeigu įvestas ne amžius (t.y. ne skaičius), tai parašyti: "Netinkamai nurodytas amžius, amžius privalo būti skaičius."
     //9. Panaudoti prompt funkciją amžiui įvesti.
 
-    age = 20
+    age = 18
 
     console.log(age)
     console.log(typeof age)
     //let sign = prompt('"įveskite amžių."')
 
-    //if (personAge < 0) {
-        //console.log('įvestas amžius yra per mažas.')
-    //} else if (personAge > 120) {
-        //console.log('įvestas amžius yra per didelis.')
-    //} else if (personAge <= 5) {
-        //console.log('į mokyklą neina')
-    //} else if (personAge < 7) {
-        //console.log('Į mokyklą tikriausiai neina, tačiau gali būti ir pirmokas.')  
-    //} else if (personAge >=7 ) {
-        //console.log('eina į pradinę klasę')
-    //} else if (personAge<=10) {
-        //console.log('eina į pradinę klasę')
-    //} else if (personAge <= 14) {
-        //console.log('eina į pagrindinę')
-    //} else if (personAge <= 18) {
-        //console.log('eina į gimnaziją')
-    //} else {
-        //console.log('mokyklą baigė')
-    //}
+    if (age < 0) {
+        console.log('įvestas amžius yra per mažas.')
+    } else if (age > 120) {
+        console.log('įvestas amžius yra per didelis.')
+    } else if (age <= 5) {
+        console.log('į mokyklą neina')
+    } else if (age < 7) {
+        console.log('Į mokyklą tikriausiai neina, tačiau gali būti ir pirmokas.')  
+    } else if (age < 10) {
+        console.log('eina į pradinę klasę')
+    } else if (age < 14) {
+        console.log('eina į pagrindinę')
+    } else if (age < 19) {
+        console.log('eina į gimnaziją')
+    } else {
+        console.log('mokyklą baigė')
+    }
 
-    if (isNaN(age)) {
-        console.log('Netinkamai nurodytas amžius, amžius privalo būti skaičius.')
-      } else if (age < 0) {
-        console.log('Nurodytas amžius yra per mažas, jis negali būti neigiamas skaičius.')
-      } else if (age < 6) {
-        console.log('Į mokyklą neina')
-      } else if (age < 7) {
-        console.log('Į mokyklą tikriausiai neina, tačiau gali būti ir pirmokas.')
-      } else if (age < 10) {
-        console.log('Pradinė')
-      } else if (age < 11) {
-        console.log('Tikriausiai mokosi pradinėje, tačiau gali būti ir penktokas.')
-      } else if (age < 14) {
-        console.log('Pagrindinė')
-      } else if (age < 15) {
-        console.log('Tikriausiai mokosi pagrindinėje, tačiau gali būti ir devintokas.')
-      } else if (age < 18) {
-        console.log('Gimnazija')
-      } else if (age < 19) {
-        console.log('Tikriausiai mokosi gimnazijoje, tačiau mokyklą gali būti ir baigęs.')
-      } else if (age < 120) {
-        console.log('Mokyklą baigė')
-      } else {
-        console.log('Nurodytas amžius yra per didelis, jis negali būti didesnis už 120 metų.')
-      }
+    //if (isNaN(age)) {
+        //console.log('Netinkamai nurodytas amžius, amžius privalo būti skaičius.')
+      //} else if (age < 0) {
+        //console.log('Nurodytas amžius yra per mažas, jis negali būti neigiamas skaičius.')
+      //} else if (age < 6) {
+        //console.log('Į mokyklą neina')
+      //} else if (age < 7) {
+        //console.log('Į mokyklą tikriausiai neina, tačiau gali būti ir pirmokas.')
+      //} else if (age < 10) {
+        //console.log('Pradinė')
+      //} else if (age < 11) {
+        //console.log('Tikriausiai mokosi pradinėje, tačiau gali būti ir penktokas.')
+      //} else if (age < 14) {
+        //console.log('Pagrindinė')
+      //} else if (age < 15) {
+        //console.log('Tikriausiai mokosi pagrindinėje, tačiau gali būti ir devintokas.')
+      //} else if (age < 18) {
+        //console.log('Gimnazija')
+      //} else if (age < 19) {
+        //console.log('Tikriausiai mokosi gimnazijoje, tačiau mokyklą gali būti ir baigęs.')
+      //} else if (age < 120) {
+        //console.log('Mokyklą baigė')
+      //} else {
+        //console.log('Nurodytas amžius yra per didelis, jis negali būti didesnis už 120 metų.')
+      //}
 
 console.groupEnd()    
